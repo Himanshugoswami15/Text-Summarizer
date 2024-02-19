@@ -1,10 +1,11 @@
 import os 
 from  pathlib import Path
+
 import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:%(massage)s:')
 
-project_name = "text summerizer"
+project_name = "textsummerizer"
 
 list_of_filles = [
     ".github/workflows/.gitkeep",
